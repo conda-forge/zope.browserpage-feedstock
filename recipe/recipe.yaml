@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "6.0"
+  version: "6.1"
   test_modules:
     - zope.browserpage.tests.test_boundpagetemplate
     - zope.browserpage.tests.test_expressiontype
@@ -17,7 +17,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/z/zope.browserpage/zope_browserpage-${{ version }}.tar.gz
-  sha256: 058b825dc6661f5b2c3683b3b65fbfda511d08159c6847831cd1ff67ffb0a45d
+  sha256: bf454b3fce6a2c6d5f93a25f790a800a0956d0aac9438ea41dcde75bc2d49669
 
 build:
   number: 0
